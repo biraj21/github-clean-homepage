@@ -1,0 +1,100 @@
+.repositories-container {
+  max-width: 1012px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.repository-card {
+  background-color: var(--color-canvas-default);
+  border: 1px solid var(--color-border-default);
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.repository-card:hover {
+  border-color: var(--color-border-primary);
+  box-shadow: var(--color-shadow-small);
+}
+
+.repository-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--color-fg-default);
+}
+
+.repository-card .repo-name {
+  color: var(--color-accent-fg);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.repository-card .repo-name:hover {
+  text-decoration: underline;
+  color: var(--color-accent-emphasis);
+}
+
+.private-badge {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 2px 6px;
+  border: 1px solid var(--color-border-default);
+  border-radius: 12px;
+  color: var(--color-fg-muted);
+  background-color: var(--color-canvas-subtle);
+}
+
+.repo-description {
+  color: var(--color-fg-muted);
+  font-size: 14px;
+  margin: 0 0 16px 0;
+  line-height: 1.5;
+}
+
+.repo-stats {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 12px;
+  color: var(--color-fg-muted);
+  flex-wrap: wrap;
+}
+
+.repo-stats > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.repo-language-color {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 4px;
+  vertical-align: middle;
+  border: 1px solid var(--color-border-subtle);
+}
+
+.loading {
+  text-align: center;
+  padding: 32px;
+  color: var(--color-fg-muted);
+  background-color: var(--color-canvas-subtle);
+  border-radius: 6px;
+  margin: 16px 0;
+}
+
+.no-repos {
+  text-align: center;
+  padding: 32px;
+  color: var(--color-fg-muted);
+  background-color: var(--color-canvas-subtle);
+  border: 1px solid var(--color-border-default);
+  border-radius: 6px;
+  margin: 16px 0;
+}
