@@ -1,4 +1,4 @@
-# GitHub Homepage Enhancer
+# GitHub Clean Homepage
 
 A Chrome extension that improves the GitHub homepage by focusing on your repositories in the main content area.
 
