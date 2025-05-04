@@ -1,5 +1,7 @@
 # GitHub Clean Homepage
 
+<img src="./logo.png" alt="GitHub Clean Homepage Logo" width="100" height="100">
+
 A Chrome extension that improves the GitHub homepage by focusing on your repositories in the main content area.
 
 ## Features
